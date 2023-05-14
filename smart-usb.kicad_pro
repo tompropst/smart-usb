@@ -48,8 +48,19 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "silk_over_copper|131405630|71515869|43cac428-cf3d-418f-9c66-1b96800b4d32|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|149203410|69735620|53c1b70d-ae43-44c5-b7b0-d4d1b7d02e59|00000000-0000-0000-0000-000000000000",
+        "text_height|150876000|63119000|c0199473-3125-4e72-abf2-f7f2d18d08ae|00000000-0000-0000-0000-000000000000",
+        "text_thickness|150876000|63119000|c0199473-3125-4e72-abf2-f7f2d18d08ae|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -165,8 +176,16 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.381
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],

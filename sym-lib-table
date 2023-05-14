@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "Seeed ESP32C3")(type "KiCad")(uri "D:/Project Files (Non-code)/Seeeduino-XIAO-ESP32C3-KiCAD-Library/Seeeduino xiao ESP32C3 KiCAD Library/MOUDLE-SEEEDUINO-XIAO-ESP32C3.kicad_sym")(options "")(descr ""))
+  (lib (name "XIAO SAMD21")(type "Legacy")(uri "/home/trp/Downloads/seeeduino-xiao-kicad/Seeeduino XIAO.lib")(options "")(descr ""))
 )
